@@ -1,0 +1,14 @@
+# aes-cbc-hmac-tampering-detection
+
+. create a aes key and iv encrypting the message.
+
+. create the hmac to encrypted message along with iv using the mackey.
+
+. So the tampering can be detected when the different hmac is created for the same ciphertest or encrpted message.
+
+. if the hmac value is same for the encrypted message then we can say that it is not tampered and can be decrypted with the CBC key later .
+
+. Thats how the aes-cbc-hmac works for the tampering detection and data can be shared safe.
+
+
+
